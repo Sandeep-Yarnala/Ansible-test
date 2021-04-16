@@ -1,0 +1,7 @@
+---
+# vars file for 3PAR_test
+
+storage_system_ip: "192.168.1.50"
+storage_system_username: "3paruser"
+storage_system_password: "3parpass"
+

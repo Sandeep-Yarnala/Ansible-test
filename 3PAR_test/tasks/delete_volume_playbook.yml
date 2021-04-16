@@ -1,0 +1,9 @@
+- name: Delete Volume "{{ volume_name }}"
+  hpe3par_volume:
+          storage_system_ip="{{ storage_system_ip }}"
+          storage_system_username="{{ storage_system_username }}"
+          storage_system_password="{{ storage_system_password }}"
+          volume_name="{{ volume_name }}"
+          state=absent
+          
+

@@ -1,0 +1,7 @@
+storage_system_ip: "192.168.1.50"
+storage_system_username: "3paruser"
+storage_system_password: "3parpass"
+volume_name: 'demo_ansible_volume'
+cpg: 'FC_r1'
+size: 10
+size_unit: 'GiB'
